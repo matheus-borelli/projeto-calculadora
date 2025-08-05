@@ -81,6 +81,7 @@
             btnSomar.TabIndex = 4;
             btnSomar.Text = "Somar";
             btnSomar.UseVisualStyleBackColor = true;
+            btnSomar.Click += btnSomar_Click;
             // 
             // btnMultiplicar
             // 
@@ -123,7 +124,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(366, 450);
+            ClientSize = new Size(387, 450);
             Controls.Add(lblResultado);
             Controls.Add(btnDividir);
             Controls.Add(btnSubtrair);
